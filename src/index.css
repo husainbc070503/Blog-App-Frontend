@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Wix Madefor Display', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  position: relative;
+}

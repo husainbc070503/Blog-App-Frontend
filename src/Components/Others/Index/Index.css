@@ -1,0 +1,77 @@
+.container {
+    width: 100%;
+    padding-top: 7%;
+}
+
+.container .card {
+    width: 1200px;
+    max-width: 94%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.card .left-view {
+    flex: 30%;
+}
+
+.left-view .title {
+    margin-bottom: 30px;
+}
+
+.left-view .title h2 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.left-view .content {
+    line-height: 2rem;
+    font-size: 22px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.card .right-view {
+    width: 650px;
+    max-width: 100%;
+}
+
+.card .right-view>img {
+    height: 100%;
+    width: 100%;
+}
+
+.left-view .link {
+    text-decoration: none;
+    background: #27E1C1;
+    color: #0c0707;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+@media (max-width: 890px) {
+    .card {
+        flex-direction: column-reverse;
+    }
+
+    .left-view {
+        margin-top: 20px;
+        padding: 0 12px;
+        text-align: justify;
+    }
+
+    .left-view .title h2 {
+        font-size: 42px;
+        line-height: 3.6rem;
+    }
+
+    .left-view .link {
+        width: 40%;
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+
+}

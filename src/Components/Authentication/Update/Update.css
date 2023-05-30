@@ -1,0 +1,47 @@
+.update-profile-container {
+    width: 430px;
+    max-width: 90%;
+    margin: 6% auto 0;
+    display: block;
+}
+
+.update-profile-container>h2 {
+    font-size: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.update-profile-container .image {
+    width: 320px;
+    height: 280px;
+    position: relative;
+    margin: 30px auto;
+}
+
+.update-profile-container .image>img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #1919196f;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px #526d8232;
+}
+
+
+.update-profile-container .image .fa-pen {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    color: #025464;
+}
+
+.update-form {
+    display: block;
+    margin-top: 10%;
+}
+
+@media (max-width: 890px) {
+    .update-profile-container {
+        margin: 20% auto 0;
+    }
+}
